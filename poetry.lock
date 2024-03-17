@@ -217,6 +217,25 @@ files = [
 ]
 
 [[package]]
+name = "ngrok"
+version = "1.2.0"
+description = "The ngrok Agent SDK for Python"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "ngrok-1.2.0-cp37-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl", hash = "sha256:be379cde4deab4e0b407dc445d093c77bfa7569b1b0e7fb1b0fa08e8c1ad9046"},
+    {file = "ngrok-1.2.0-cp37-abi3-macosx_10_12_x86_64.whl", hash = "sha256:072b5a2aebd36ef200422f4eb17d84dc772eb019dab1cc72d9706893b55bb033"},
+    {file = "ngrok-1.2.0-cp37-abi3-macosx_11_0_arm64.whl", hash = "sha256:898b71747e8b6edead0413c7c009bf278e4fa607c5f075ac36409325685c6633"},
+    {file = "ngrok-1.2.0-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3c7668542bd7cbe0b368c9f6a7fcfcd77813d9cd9334a948b17f90c16d62336f"},
+    {file = "ngrok-1.2.0-cp37-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:696bd52fc654de30e19a022afd14435917c3af03f3695b6490847e3652926ca1"},
+    {file = "ngrok-1.2.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:252dee1faf145c27d09f607f583e048b1338b93d95aa6336dd6742233bd53de6"},
+    {file = "ngrok-1.2.0-cp37-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:1fcffdc0924ecfb345142e91aebb1efac35fdb422ca8e90e2ef9f1e285ef9ed6"},
+    {file = "ngrok-1.2.0-cp37-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:40a51a91f564af8646da70f8d57789577090962b4100ef3afcfc64d79e36151b"},
+    {file = "ngrok-1.2.0-cp37-abi3-win32.whl", hash = "sha256:d9df060e202ab56246ed21b005014745e870a5ded66e1a2792cf2abf9c293061"},
+    {file = "ngrok-1.2.0-cp37-abi3-win_amd64.whl", hash = "sha256:e853cbb1b8d3bd4fc5789f9e5ecbaee94656f7f25895ea7c78b3bb2a14c565de"},
+]
+
+[[package]]
 name = "psycopg"
 version = "3.1.18"
 description = "PostgreSQL database adapter for Python"
@@ -890,4 +909,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "e0797c62a9f55762881d76b183fbe6655db4d71da59f1c28ec0d0dfdb6ebf5f7"
+content-hash = "5c564d5a1f12a3550b38f5f3e860a8ea5408b2dde7f950b4163998807ef53a31"
